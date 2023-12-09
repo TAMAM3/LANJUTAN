@@ -12,6 +12,7 @@
         <li><a href="/about">about</a></li>
         <li><a href="/mahasiswa">mahasiswa</a></li>
         <li><a href="/profile">profile</a></li>
+        <li><a href="/profile">ayam</a></li>
     </ul>
 </body>
 </html>

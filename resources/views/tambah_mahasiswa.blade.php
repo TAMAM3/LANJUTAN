@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>tambah mahasiswa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
@@ -33,35 +33,8 @@
           </div>
         </div>
       </nav>
-    <div class="container" style="margin-left :10px">
-        <h1>Halaman Mahasiswa</h1>
-        <div class="row">
-            <div class="col-sm-8">
-                <h4>Tabel Mahasiswa</h4>
-                <a href="/tambah-mahasiswa" class="btn btn-primary">Tambah Mahasiswa</a>
-                <table class="table table-sm table-danger table-hover text-center table-bordered">
-                        <thead>
-                            <tr>
-                              <th colspan="2">A</th>
-                              <th>B</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>C</td>
-                            <td>D</td>
-                            <td rowspan="2">E</td>
-                          </tr>
-                          <tr>
-                            <td colspan="2">F</td>
-                          </tr>
-                        </tbody>
-                </table>
-            </div>
-            <div class="col-sm-4">
-                <h4>Form Mahasiswa</h4>
-            </div>
-        </div>
+    <div class="container"style="margin-left :10px">
+        <h1>Halaman tambah mahasiswa</h1>
         
     </div>
 
