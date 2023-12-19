@@ -10,6 +10,9 @@
     <div class="container">
         <a href="/">kembali</a>
         <h1>Halaman Tambah Mahasiswa</h1>
+
+        <form action="/"method="POST">
+            @csrf
         <div class="row">
         <div class="col-sm-4">
             <label for="">NPM</label>
@@ -26,8 +29,8 @@
         <div class="col-sm-4">
             <label for="">Jenis Kelamin</label>
             <select name="jk" id="" class="form-control">
-                <option value="1">L</option>
-                <option value="2">P</option>
+                <option>L</option>
+                <option>P</option>
             </select>
         </div>
         <div class="col-sm-4">
@@ -36,9 +39,11 @@
             </textarea>
         </div>
         <div class="col-sm-4">
-            <button class="btn btn-primary nt-4" style="width:100%">simpan</button>
+            <button type="submit" class="btn btn-primary nt-4" style="width:100%">simpan</button>
         </div>
     </div>
+</form>
+
 </div>
     
 
